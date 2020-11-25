@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+
+.background-web {
+    background-color: #f2fff6;
+}
+
+.font-th {        
+    font-family: 'Mali', cursive;
+}
+
+/* .table thead th #tableWork {
+    border-bottom: 1px solid #dee2e6;
+} */
+/* 
+.table td, .table th #tableWork {
+    border-top: unset;
+} */
