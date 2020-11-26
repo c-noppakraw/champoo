@@ -9,6 +9,11 @@ const Work_champoo = () => {
         marginRight: 'auto',
         marginLeft: 'auto',
     }
+    const boxContenIg = {
+        width: '50%',
+        marginRight: 'auto',
+        marginLeft: 'auto',
+    }
     return (
         <>  <Container className="font-th" fluid style={{width: '100%', paddingTop: '65px', paddingBottom: '65px'}}>
                 <Row style={boxConten}>
@@ -67,51 +72,144 @@ const Work_champoo = () => {
                             </tbody>
                         </table>                                          */}
                     </Col>
-                    <Col lg={3}>
-                        <h5 style={{fontWeight: '600', color: '#313735', textShadow: '2px 2px #a5b59c', marginBottom: '20px'}}><i class="fab fa-instagram"></i> Instagram</h5>
-                        <Row>
-                            <Col lg={12}>
-                                <div>
-                                    <Row>
-                                        <Col lg={3}>
-                                            <img
-                                                src="/img/user.png"
-                                                width="50px"
-                                                height="50px"
-                                                alt="user.png"
-                                            />
-                                        </Col>
-                                        <Col lg={9}>
-                                            <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
-                                            <p>เก่งขึ้นมาก ๆ เลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
-                                        </Col>
-                                    </Row>
-                                    <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
-                                </div>
-                            </Col>
-                        </Row>
-                    </Col>
-                    <Col lg={3}>
+                    <Col lg={6}>
                         <h5 style={{fontWeight: '600', color: '#313735', textShadow: '2px 2px #a5b59c', marginBottom: '20px'}}><i class="fab fa-twitter-square"></i> Twitter</h5>
                         <Row>
+                            {/*  */}
+                            <Col lg={6}>
+                                <Row>
+                                    <Col lg={3}>
+                                        <img
+                                            src="/img/user.png"
+                                            width="50px"
+                                            height="50px"
+                                            alt="user.png"
+                                        />
+                                    </Col>
+                                    <Col lg={9}>
+                                        <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
+                                        <p>เก่งขึ้นมาก ๆ เลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
+                                    </Col>
+                                </Row>
+                                <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
+                            </Col>
+                            <Col lg={6}>
+                                <Row>
+                                    <Col lg={3}>
+                                        <img
+                                            src="/img/user.png"
+                                            width="50px"
+                                            height="50px"
+                                            alt="user.png"
+                                        />
+                                    </Col>
+                                    <Col lg={9}>
+                                        <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
+                                        <p>เก่งขึ้นมาก ๆ เลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
+                                    </Col>
+                                </Row>
+                                <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
+                            </Col>
+                            <Col lg={6}>
+                                <Row>
+                                    <Col lg={3}>
+                                        <img
+                                            src="/img/user.png"
+                                            width="50px"
+                                            height="50px"
+                                            alt="user.png"
+                                        />
+                                    </Col>
+                                    <Col lg={9}>
+                                        <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
+                                        <p>เก่งขึ้นมาก ๆ เลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
+                                    </Col>
+                                </Row>
+                                <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
+                            </Col>
+                            <Col lg={6}>
+                                <Row>
+                                    <Col lg={3}>
+                                        <img
+                                            src="/img/user.png"
+                                            width="50px"
+                                            height="50px"
+                                            alt="user.png"
+                                        />
+                                    </Col>
+                                    <Col lg={9}>
+                                        <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
+                                        <p>เก่งขึ้นมาก ๆ เลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
+                                    </Col>
+                                </Row>
+                                <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
+                            </Col>
+                            {/*  */}
+
+                        </Row>
+                    </Col>
+                </Row>
+                <Row style={boxContenIg}>
+                    <Col lg={12}>
+                        <h5 style={{fontWeight: '600', color: '#313735', textShadow: '2px 2px #a5b59c', marginTop: '20px', marginBottom: '20px'}}><i class="fab fa-instagram"></i> Instagram</h5>
+                        <Row>
                             <Col lg={12}>
-                                <div>
-                                    <Row>
-                                        <Col lg={3}>
-                                            <img
-                                                src="/img/user.png"
-                                                width="50px"
-                                                height="50px"
-                                                alt="user.png"
+                                <Row>
+                                    <Col lg={3}>
+                                         <img 
+                                            src="/img/img_ig/85122859_201073847946410_8857060014255243264_n.jpg"
+                                            width="100%"
+                                            // width="50px"
+                                            // height="50px"
+                                            alt="85122859_201073847946410_8857060014255243264_n.jpg"
+                                        />
+                                    </Col>
+                                    <Col lg={3}>
+                                         <img 
+                                            src="/img/img_ig/85122859_201073847946410_8857060014255243264_n.jpg"
+                                            width="100%"
+                                            // width="50px"
+                                            // height="50px"
+                                            alt="85122859_201073847946410_8857060014255243264_n.jpg"
+                                        />
+                                    </Col>
+                                    <Col lg={3}>
+                                        <img 
+                                            src="/img/img_ig/122002959_400057021381424_5401009156022263739_n.jpg"
+                                            width="100%"
+                                            // width="50px"
+                                            // height="50px"
+                                            alt="122002959_400057021381424_5401009156022263739_n.jpg"
+                                        />
+                                    </Col>
+                                    <Col lg={3}>
+                                        <div style={{height: '280px'}}>
+                                            <img 
+                                                src="/img/img_ig/635523.jpg"
+                                                width="100%"
+                                                // width="50px"
+                                                // height="50px"
+                                                alt="635523.jpg"
                                             />
-                                        </Col>
-                                        <Col lg={9}>
-                                            <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
-                                            <p>เก่งขึ้นมากๆเลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
-                                        </Col>
-                                    </Row>
-                                    <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
-                                </div>
+                                        </div>
+                                    </Col>
+                                    
+                                </Row>
+                                {/* <Row>
+                                    <Col lg={3}>
+                                        <img
+                                            src="/img/user.png"
+                                            width="50px"
+                                            height="50px"
+                                            alt="user.png"
+                                        />
+                                    </Col>
+                                    <Col lg={9}>
+                                        <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
+                                        <p>เก่งขึ้นมากๆเลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
+                                    </Col>
+                                </Row> */}
+                                <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
                             </Col>
                         </Row>
                     </Col>

@@ -5,11 +5,13 @@ const Detail = () => {
     return (
         <>
             <Container className="font-th" fluid style={{width: '80%'}}>
-                <Row style={{marginTop: '45px'}}>
+
+                {/* on pc */}
+                <Row id="">
                     <Col lg={6} style={{textAlign: 'center'}}>
                         <img
                             src="/img/img_champoo/635523.png"
-                            width="45%"
+                            width="90%"
                             // width="200px"
                             // height="50px"
                             alt="635523.png"
@@ -21,7 +23,7 @@ const Detail = () => {
                         <h5 style={{color: '#1c1c1c', fontWeight: '600'}}>Kodchaporn Leelatheep</h5>
                         <p>CGM48 Team Trainee</p>
                         <Row>
-                            <Col lg={3}>
+                            <Col lg={3} style={{paddingRight: '0px'}}>
                                 <p style={{marginBottom: '5px', fontSize: '14px',}}>วันเกิด :</p>
                                 <p style={{marginBottom: '5px', fontSize: '14px',}}>ส่วนสูง :</p>
                                 <p style={{marginBottom: '5px', fontSize: '14px',}}>จังหวัด :</p>
@@ -29,7 +31,7 @@ const Detail = () => {
                                 <p style={{marginBottom: '5px', fontSize: '14px',}}>กรุ๊ปเลือด :</p>
                                 <p style={{marginBottom: '5px', fontSize: '14px',}}>งานอดิเรก :</p>
                             </Col>
-                            <Col lg={9}>
+                            <Col lg={9} style={{paddingRight: '0px'}}>
                                 <p style={{marginBottom: '5px', fontSize: '14px',}}>10 ตุลาคม 2548</p>
                                 <p style={{marginBottom: '5px', fontSize: '14px',}}>155 ซม.</p>
                                 <p style={{marginBottom: '5px', fontSize: '14px',}}>ลำปาง</p>
@@ -40,6 +42,11 @@ const Detail = () => {
                         </Row>
                     </Col>
                 </Row>
+                {/* end on pc */}
+
+                {/*  */}
+                {/*  */}
+
             </Container>  
         </>
     )
