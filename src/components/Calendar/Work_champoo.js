@@ -74,8 +74,8 @@ const Work_champoo = () => {
                     </Col>
                     <Col lg={6}>
                         <h5 style={{fontWeight: '600', color: '#313735', textShadow: '2px 2px #a5b59c', marginBottom: '20px'}}><i class="fab fa-twitter-square"></i> Twitter</h5>
-                        <Row>
-                            {/*  */}
+                        {/*  */}
+                        <Row id="showPcTwitter1200">
                             <Col lg={6}>
                                 <Row>
                                     <Col lg={3}>
@@ -144,9 +144,82 @@ const Work_champoo = () => {
                                 </Row>
                                 <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
                             </Col>
-                            {/*  */}
-
                         </Row>
+                        {/*  */}
+
+                        {/* on mobile twitter 1200px */}
+                        <Row id="showMobileTwitter1200">
+                            <Col lg={12}>
+                                <Row>
+                                    <Col lg={3}>
+                                        <img
+                                            src="/img/user.png"
+                                            width="50px"
+                                            height="50px"
+                                            alt="user.png"
+                                        />
+                                    </Col>
+                                    <Col lg={9}>
+                                        <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
+                                        <p>เก่งขึ้นมาก ๆ เลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
+                                    </Col>
+                                </Row>
+                                <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
+                            </Col>
+                            <Col lg={12}>
+                                <Row>
+                                    <Col lg={3}>
+                                        <img
+                                            src="/img/user.png"
+                                            width="50px"
+                                            height="50px"
+                                            alt="user.png"
+                                        />
+                                    </Col>
+                                    <Col lg={9}>
+                                        <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
+                                        <p>เก่งขึ้นมาก ๆ เลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
+                                    </Col>
+                                </Row>
+                                <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
+                            </Col>
+                            <Col lg={12}>
+                                <Row>
+                                    <Col lg={3}>
+                                        <img
+                                            src="/img/user.png"
+                                            width="50px"
+                                            height="50px"
+                                            alt="user.png"
+                                        />
+                                    </Col>
+                                    <Col lg={9}>
+                                        <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
+                                        <p>เก่งขึ้นมาก ๆ เลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
+                                    </Col>
+                                </Row>
+                                <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
+                            </Col>
+                            <Col lg={12}>
+                                <Row>
+                                    <Col lg={3}>
+                                        <img
+                                            src="/img/user.png"
+                                            width="50px"
+                                            height="50px"
+                                            alt="user.png"
+                                        />
+                                    </Col>
+                                    <Col lg={9}>
+                                        <p style={{fontWeight: '600', marginBottom: '0px'}}>พี่เกม <span style={{color: '#7f7f7f'}}>@pgame</span></p>
+                                        <p>เก่งขึ้นมาก ๆ เลยเจ้าแชมพู รอยยิ้มของพี่ #champoocgm48</p>
+                                    </Col>
+                                </Row>
+                                <hr style={{marginTop: '8px', marginBottom: '8px', borderColor: '#c1d7d0'}} />
+                            </Col>
+                        </Row>
+                        {/* end on mobile twitter 1200px */}
+
                     </Col>
                 </Row>
                 <Row style={boxContenIg}>

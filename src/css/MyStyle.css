@@ -20,14 +20,24 @@
     display: none;
 }
 
-@media only screen and (max-width: 1340px) {
+#showMobileTwitter1200 {
+    display: none;
+}
 
-    #showMobile1340 {
+@media only screen and (max-width: 1200px) {
+    #showPcTwitter1200 {
+        display: none;
+    }
+    #showMobileTwitter1200 {
         display: contents;
     }
+}
 
+/* @media only screen and (max-width: 1340px) {
     #showPc {
         display: none;
     }
-
-}
+    #showMobile1340 {
+        display: contents;
+    }
+} */
